@@ -1,0 +1,43 @@
+# PHP Composer dependencies
+/vendor/
+
+# Node.js dependencies (React & React Native)
+node_modules/
+
+# Logs and runtime files
+/logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build output folders
+/client-web/build/
+/client-mobile/.expo/
+client-mobile/.expo-shared/
+client-mobile/.expo/web-build/
+/client-mobile/android/
+/client-mobile/ios/
+/client-mobile/.vscode/
+
+# Composer autoload files
+/composer.lock
+
+# Phinx migration files cache (optional)
+/db/migrations/*.lock
+
+# IDE and editor config files
+.vscode/
+.idea/
+/*.sublime-project
+/*.sublime-workspace
+
+# OS generated files
+ehthumbs.db
+Icon?

@@ -1,0 +1,19 @@
+{
+    "name": "vlados/server",
+    "autoload": {
+        "psr-4": {
+            "Vlados\\Server\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "VladOS-tech",
+            "email": "vladokzhitnik@ya.ru"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.11",
+        "robmorgan/phinx": "^0.16.10"
+    }
+}
